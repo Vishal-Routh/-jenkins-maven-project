@@ -34,9 +34,9 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertEquals("Hello World, i am happy from Java Maven Project!" + System.getProperty("line.separator"), outContent.toString());
+            assertEquals("Hello World,  am happy from Java Maven Project!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello World, i am happy from Java Maven Project!\"");
+            fail("\"message\" is not \"Hello World,  am happy from Java Maven Project!\"");
         }
     }
 
